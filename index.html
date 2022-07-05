@@ -12,12 +12,18 @@
     	
      <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
     <form >
-        <input type = "text" name = "nome cognome" placeholder="Inserici ynome e cognome" />
+        <input type = "text" name = "nome cognome" placeholder="Inserici nome e cognome" id="nome"/>
        
-         <input type = "text" name = "km da percorrere" placeholder="km da percorrere" />
+         <input type = "text" name = "km da percorrere" placeholder="km da percorrere" id="distanza"/>
+         
+        <select  id="fasciaEta">
+            <option value="maggiorenne">maggiorenne</option>
+            <option value="minorenne">minorenne</option>
+            <option value="over">over</option>
+        </select>
          <br>
-         <input type="submit" value="Crea">
-         <input type="submit" value="Annulla">
+         <input type="submit" value="Crea" id="bottone">
+         <input type="reset" value="Annulla">
     
     
     
